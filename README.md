@@ -32,34 +32,42 @@ Optional:
 ## How to Run
 
 1. Clone or download the repository.
+   
 2. Make sure you have Python 3 installed.
+   
 3. Open terminal/command prompt and navigate to the project folder.
+   
 4. Run the script:
+   
    ```bash
    python email_extractor_gui.py
-Click the "Select File & Extract Emails" button.
+   
+-Click the "Select File & Extract Emails" button.
 
-Choose a .txt file containing text with email addresses.
+-Choose a .txt file containing text with email addresses.
 
-The emails will be extracted and saved to output_emails.txt.
+-The emails will be extracted and saved to output_emails.txt.
 
-Creating a Standalone Executable
+-Creating a Standalone Executable
+
 To create a standalone Windows .exe file:
 
-Install PyInstaller:
+-Install PyInstaller:
 
 pip install pyinstaller
+
 Run the following command in your project folder:
 
 
 pyinstaller --onefile --noconsole email_extractor_gui.py
+
 The .exe file will be created in the dist folder.
 
-Optional: Add a custom icon:
+-Optional: Add a custom icon:
 
 pyinstaller --onefile --noconsole --icon=mail.ico email_extractor_gui.py
 
-Folder Structure
+-Folder Structure
 
 graphql
 
